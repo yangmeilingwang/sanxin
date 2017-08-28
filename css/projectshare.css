@@ -1,0 +1,699 @@
+.shpro_box{
+	background: #f5f5f5;
+	overflow: hidden;
+}
+.shpro_mess{
+	display: flex;
+	justify-content: space-between;
+	padding:30px 0 20px;
+}
+.shpro_mess .left{
+	overflow: hidden;
+	background: #fff;
+	border-radius: 5px;
+}
+.shpro_mess .left .up{
+	width: 100%;
+	float: left;
+	display: flex;
+	justify-content: flex-start;
+}
+.shpro_mess .left .up.table_box{
+	padding: 20px;
+	display: block;
+}
+.shpro_mess .left .up header{
+	width: 100%;
+	font-size: 20px;
+	padding:30px 0 20px;
+}
+.shpro_mess .left .up table{
+	width: 100%;
+	background-color: #def0ff;
+	border-color: #5aa3e0;
+}
+.shpro_mess .left .up table th{
+	width: 12.576%;
+	height: 48px;
+	padding-left: 10px;
+}
+.shpro_mess .left .up table td{
+	width: 20.757%;
+	height: 48px;
+	padding-left: 10px;
+}
+.shpro_mess .left .up table td.red{
+	color: #ea544a;
+}
+.shpro_mess .left .up .img{
+	position: relative;
+	width:41%;
+}
+
+.shpro_mess .left .up .div{
+	width: 58%;
+	padding : 0 10px;
+	flex: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.shpro_mess .left .up h3{
+	float: left;
+	margin: 30px 0 0;
+}
+.shpro_mess .left .up h3 .p0{
+	margin-bottom: 20px;
+}
+.shpro_mess .left .up h3 span{
+	font-size: 18px;
+	margin-right: 20px;
+}
+.shpro_mess .left .up h3 p,
+.shpro_mess .left .up h3 .span{
+	font-size: 14px;
+}
+.shpro_mess .left .up h3 .flag{
+	background: url(../images/icon01.png) no-repeat left center;
+	padding-left: 18px;
+}
+.shpro_mess .left .up h3 .address{
+	background: url(../images/icon09.png) no-repeat left center;
+	padding-left: 18px;
+}
+.shpro_mess .left .up .p1{
+	line-height: 25px;
+}
+.shpro_mess .left .up .p2{
+	width: 100%;
+}
+.shpro_mess .left .up .p2 span{
+	display: inline-flex;
+	align-items: center;
+}
+.shpro_mess .left .up .p2 i{
+	display: inline-block;
+	cursor: pointer;
+	width: 20px;
+	height: 15px;
+}
+.shpro_mess .left .up .p2 .i1{
+	background: url(../images/icon06.png) no-repeat center;
+}
+.shpro_mess .left .up .p2 .i2{
+	background: url(../images/icon07.png) no-repeat center;
+}
+.shpro_mess .left .up .p2 .i3{
+	background: url(../images/icon08.png) no-repeat center;
+}
+.shpro_mess .left .up .p2 p.pl{
+	float: left;
+}
+.shpro_mess .left .up .p2 p.pr{
+	float: right;
+}
+.shpro_mess .left .down{
+	margin-top: 20px;
+	width: 100%;
+	float: left;
+	border-top: 1px solid #ddd;
+	padding: 30px 20px 30px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	overflow: hidden;
+}
+.shpro_mess .left .down .p1{
+	display: flex;
+	align-items: center;
+}
+.shpro_mess .left .down .p1 input{
+	margin: 0 5px 0 0;
+	width: 14px;
+	height: 14px;
+	font-size: 10px;
+}
+.shpro_mess .left .down .p1 input[type="checkbox"]{
+	text-align:center;
+	-webkit-appearance:none;
+	border:2px solid #aaa;
+	font-family:Verdana;
+	outline:none;
+	transition:all 0.1s;
+}
+.shpro_mess .left .down .p1 input[type="checkbox"]:checked{
+	background-color:#5aa3e0;
+	color:white;
+	border:0;
+}
+.shpro_mess .left .down .p1 input[type="checkbox"]:after{
+	font-weight:bold;
+}
+.shpro_mess .left .down .p1 input[type="checkbox"]:checked:after{
+	content:"√";
+}
+
+.shpro_mess .left .down .p1 a,
+.shpro_mess .left .down .p1 a:hover,
+.shpro_mess .left .down .p1 a:focus{
+	color: #5aa3e0 !important;
+}
+.shpro_mess .left .down p{
+	margin-bottom: 0;
+}
+.shpro_mess .left .down .p2 a{
+	display: inline-block;
+	color: #fff;
+	background: #5aa3e0;
+	padding: 10px 25px;
+	border-radius: 5px;
+	margin:0 5px;
+}
+.shpro_mess .left .down .p2 a:hover{
+	text-decoration: none;
+	background: #5a8ff0;
+}
+.shpro_mess .right{
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.shpro_mess .right header{
+	height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #5aa3e0;
+	line-height: 40px;
+}
+.shpro_mess .right .nav-tabs{
+	width: 100%;
+	float: left;
+	position: relative;
+	background-color: #def0ff;
+}
+.shpro_mess .right .nav-tabs::after{
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background-color: #5aa3e0;
+	top: 10px;
+	left: 50%;
+}
+.shpro_mess .right .nav-tabs li{
+	width: 50%;
+	text-align: center;
+	
+}
+.shpro_mess .right .nav-tabs li a,
+.shpro_tab .nav-tabs li a{
+	color: #000;
+	background: transparent;
+	border:0;
+	padding: 10px 0;
+}
+.shpro_mess .right .nav-tabs li.active a,
+.shpro_tab .nav-tabs li.active a{
+	color:#5aa3e0;
+	background: transparent;
+	border:0;
+	border-bottom: 2px solid #5aa3e0;
+}
+.shpro_mess .right .tab-content .head{
+	float: left;
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.shpro_mess .right .tab-content .head span,
+.shpro_mess .right .tab-content ul li span{
+	float: left;
+	width: 25%;
+	line-height: 42px;
+	text-align: center;
+	color: #5aa3e0;
+}
+.shpro_mess .right .tab-content ul{
+	width: 100%;
+	float: left;
+	margin-bottom: 0;
+}
+.shpro_mess .right .tab-content ul li{
+	width: 100%;
+	float: left;
+	border-bottom: 1px dashed #ddd;
+}
+.shpro_mess .right .tab-content ul li span{
+	color: #777;
+}
+.specialproject_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.specialproject_box .project header h3{
+	font-size: 22px;
+	margin: 0;
+}
+.specialproject_box .project .lookmore{
+	top :20px;
+}
+.shpro_tab{
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.shpro_tab .nav-tabs li{
+	width: 20%;
+	text-align: center;
+}
+.shpro_tab .tab-content{
+	padding: 20px 30px;
+	color: #777;
+}
+@media screen and (min-width: 992px) {
+	.shpro_mess .left{
+		max-width: 872px;
+	}
+	.shpro_mess .left .up img{
+		width: 360px;
+		height: 212px;
+	}
+	.shpro_mess .right{
+		width: 312px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.specialproject_box .project header h3{
+		text-align: left;
+	}
+}
+@media screen and (max-width: 991px) {
+	.shpro_mess{
+		flex-direction: column;
+	}
+	.shpro_mess .left{
+		width: 100%;
+	}
+	.shpro_mess .right{
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.shpro_mess{
+		padding: 20px 0 10px;
+	}
+	.shpro_mess .left .up .img{
+		width:45%;
+	}
+	.shpro_mess .left .up .div{
+		width: 55%;
+	}
+	.shpro_mess .left .up h3{
+		margin: 10px 0 0;
+	}
+	.shpro_mess .left .up h3 span{
+		font-size: 14px;
+	}
+	.shpro_mess .left .up h3 .span,
+	.shpro_mess .left .up .p2 span{
+		font-size: 12px;
+	}
+	.shpro_mess .left .up h3 .p0{
+		margin-bottom: 10px;
+	}
+	.shpro_mess .left .up .p1{
+		font-size: 12px;
+		line-height: 18px;
+	}
+	.shpro_mess .left .down{
+		margin-top: 0;
+		padding: 10px 0;
+		flex-direction: column;
+	}
+	.shpro_mess .left .down .p2{
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+.newproject_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.special_box{
+	background-color: #fff;
+	overflow: hidden;
+}
+.project{
+	position: relative;
+}
+.project header{
+	text-align: center;
+	padding: 18px 0;
+}
+.project header p{
+	margin: 0;
+	color: #666;
+}
+.project ul.p_content{
+	overflow: hidden;
+	padding-top: 10px;
+}
+.project ul.p_content li{
+	border-radius: 3px;
+	margin-bottom: 50px;
+}
+.project ul.p_content li a{
+	position: relative;
+	float: left;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: transform 0.3s;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.project ul.p_content li a:hover,
+.project ul.p_content li a:focus{
+	text-decoration: none;
+}
+.project ul.p_content li a div.newdiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10px;
+	background-color: #fff;
+}
+.project ul.p_content li a div.newdiv h4{
+	line-height: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin :15px 0 0;
+	color: #666;
+}
+.project ul.p_content li a div.newdiv h4 strong{
+	font-size: 18px;
+	padding-right: 5px;
+}
+.project ul.p_content li a div.newdiv h4 p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: auto;
+	margin: 0;
+	font-size: 14px;
+	color: #666;
+}
+.project ul.p_content li a div.newdiv h4 p i{
+	margin-right: 5px;
+	width: 13px;
+	height:16px;
+	background: url(../images/icon01.png) no-repeat center;
+}
+.project ul.p_content li a div.newdiv h5{
+	line-height: 1;
+	margin: 20px 0;
+	color: #666;
+	font-size: 16px;
+	color: #666;
+}
+.project ul.p_content li a div.specialdiv{
+	position: relative;
+	padding: 0 15px;
+	height: 50px;
+	background-color: #f5f5f5;
+}
+.project ul.p_content li a div.specialdiv .onit{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 120px;
+	transition: transform 0.3s;
+}
+.project ul.p_content li a div.specialdiv .onit .shadow,
+.project ul.p_content li a div.specialdiv .onit .txt{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.project ul.p_content li a div.specialdiv .onit .shadow{
+	background-color: #fff;
+	opacity: 0.6;
+}
+.project ul.p_content li a div.specialdiv .onit .txt{
+	padding: 0 20px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3{
+	font-size: 18px;
+	margin: 0;
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #000;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span{
+	font-size: 16px;
+	padding: 4px 10px;
+	color: #fff;
+	border-radius: 10px;
+	line-height: 16px;
+	margin-right: 10px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span.span1{
+	background-color: #ea544a;
+}
+.project ul.p_content li a div.specialdiv .onit .txt h3 span.span2{
+	background-color: #5aa3e0;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p{
+	color: #000;
+	margin-bottom: 15px;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p.pagnation{
+	color: #666;
+}
+.project ul.p_content li a div.specialdiv .onit .txt p.pagnation span{
+	margin-left: 16px;
+	color: #ea544a;
+}
+.project ul.p_content li a div.specialdiv:hover .onit{
+	transform: translateY(-70px);
+}
+.project .lookmore{
+	position: absolute;
+	right: 40px;
+	top: 75px;
+}
+.project .lookmore a{
+	display: inline;
+	color: #666;
+}
+.project .lookmore a:hover,
+.project .lookmore a:focus{
+	text-decoration: none;
+	color: #5aa3e0;
+}
+.project ul.p_content li a p.flag,
+.shpro_mess .left .up .img p.flag{
+	position: absolute;
+	top: 0;
+	margin: 0;
+	width: 20px;
+	height: 65px;
+	text-align: center;
+	word-wrap:break-word;  
+    word-break:break-all;
+    white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -webkit-pre-wrap;
+	white-space: -o-pre-wrap;
+	color: #fff;
+	font-size: 16px;
+
+}
+.project ul.p_content li a p.flag{
+	right: 10px;
+}
+.shpro_mess .left .up .img p.flag{
+	left: 10px;
+}
+.project ul.p_content li a p.flag::before,
+.shpro_mess .left .up .img p.flag::before{
+	position: absolute;
+	content: "";
+	bottom: -12px;
+	left: 0;
+	border-bottom: 0;
+	border-left: 0;
+	border-top-width: 12px;
+	border-right-width: 10px;
+	border-style: solid;
+	border-right-color: transparent;
+}
+.project ul.p_content li a p.flag::after,
+.shpro_mess .left .up .img p.flag::after{
+	position: absolute;
+	content: "";
+	bottom: -12px;
+	right: 0;
+	border-bottom: 0;
+	border-right: 0;
+	border-top-width: 12px;
+	border-left-width: 10px;
+	border-style: solid;
+	border-left-color: transparent;
+}
+.project ul.p_content li a p.flag.flag1,
+.shpro_mess .left .up .img p.flag.flag1{
+	background-color: #e5615b;
+}
+.project ul.p_content li a p.flag.flag1::before,
+.project ul.p_content li a p.flag.flag1::after,
+.shpro_mess .left .up .img p.flag.flag1::before,
+.shpro_mess .left .up .img p.flag.flag1::after{
+	border-top-color: #e5615b;
+}
+.project ul.p_content li a p.flag.flag2,
+.shpro_mess .left .up .img p.flag.flag2{
+	background-color: #b3b7b9;
+}
+.project ul.p_content li a p.flag.flag2::before,
+.project ul.p_content li a p.flag.flag2::after,
+.shpro_mess .left .up .img p.flag.flag2::before,
+.shpro_mess .left .up .img p.flag.flag2::after{
+	border-top-color: #b3b7b9;
+}
+.project ul.p_content li a p.flag.flag3,
+.shpro_mess .left .up .img p.flag.flag3{
+	background-color: #75ad52;
+}
+.project ul.p_content li a p.flag.flag3::before,
+.project ul.p_content li a p.flag.flag3::after,
+.shpro_mess .left .up .img p.flag.flag3::before,
+.shpro_mess .left .up .img p.flag.flag3::after{
+	border-top-color: #75ad52;
+}
+.adproject_box{
+	background-color: #f5f5f5;
+	overflow: hidden;
+}
+.project .adcontent{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+@media screen and (min-width: 992px) {
+	.project ul.p_content li a:hover{
+		transform: translateY(-10px);
+		box-shadow:0 5px 10px 5px #ddd;
+	}
+}
+@media screen and (max-width: 991px) {
+	.project ul.p_content li{
+		padding : 0 10px;
+		margin-bottom: 30px;
+	}
+	.project ul.p_content li a div.newdiv h4{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.project ul.p_content li a div.newdiv h4 strong{
+		font-size: 16px;
+	}
+	.project ul.p_content li a div.newdiv h4 p{
+		margin-top: 5px;
+		font-size: 12px;
+	}
+	.project ul.p_content li a div.newdiv h5{
+		margin: 10px 0;
+		font-size: 14px;
+	}
+	.project .adcontent{
+		margin-bottom: 40px;
+	}
+	.project ul.p_content li a p.flag,
+	.shpro_mess .left .up .img p.flag{
+		font-size: 14px;
+		line-height: 14px;
+		height: 50px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.project ul.p_content li{
+		padding : 0 5px;
+		margin-bottom: 10px;
+	}
+	.project ul.p_content li a{
+		border-radius: 5px;
+	}
+	.project ul.p_content li a div.newdiv{
+		padding : 0 5px;
+	}
+ 	.project ul.p_content li a div.newdiv h4 strong{
+		font-size: 14px;
+	}
+	.project ul.p_content li a div.newdiv h4 p{
+		justify-content: flex-start;
+		max-width: 100%;
+	}
+	.project ul.p_content li a div.newdiv h4 p span{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.project ul.p_content li a div.newdiv h5{
+		font-size: 12px;
+	}
+	.project .lookmore{
+		position: relative;
+		top:0;
+		right: 0;
+		padding-bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.project .lookmore a{
+		display: block;
+		width: 40.8vw;
+		height: 10.67vw;
+		line-height: 10.67vw;
+		text-align: center;
+		color: #5aa3e0;
+		background-color: #fff;
+		border-radius: 5px;
+		border:2px solid #5aa3e0;
+	}
+	.project .lookmore a:hover,
+	.project .lookmore a:focus{
+		background-color: #5aa3e0;
+		color: #fff;
+	}
+	.project .adcontent{
+		margin-bottom: 20px;
+	}
+	.project ul.p_content li a p.flag,
+	.shpro_mess .left .up .img p.flag{
+		font-size: 12px;
+		line-height: 12px;
+		height: 40px;
+	}
+}
+.marqueeprojectshare{
+	height: 215px;
+}

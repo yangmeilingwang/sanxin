@@ -1,0 +1,33 @@
+ul.video{
+	overflow: hidden;
+	padding: 20px 0;
+}
+ul.video li{
+	float: left;
+	margin:10px 0 10px 30px;
+	width: 260px;
+	height: 200px;
+}
+ul.video li video{
+	width: 100%;
+	height: 100%;
+}
+ul.video li video source{
+	width: 100%;
+	height: 100%;
+}
+@media screen and (max-width: 1177px) {
+	ul.video{
+		max-width: 900px;
+	}
+}
+@media screen and (max-width: 887px) {
+	ul.video{
+		max-width: 607px;
+	}
+}
+@media screen and (max-width: 607px) {
+	ul.video{
+		max-width: 300px;
+	}
+}

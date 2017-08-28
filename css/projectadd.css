@@ -1,0 +1,46 @@
+.select_box{
+	position: relative;
+	overflow: inherit;
+}
+.select_box .select header{
+	position: relative;
+}
+.select_box .select header form input[type="text"]{
+	width: 85%;
+}
+.select_box .select header form input[type="submit"]{
+	float: right;
+}
+#autocomplete{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: translateY(100%);
+	z-index: 999;
+}
+#autocomplete table{
+	width: 100%!important;
+	position: relative!important;
+	left: 0!important;
+	top: 0!important;
+    background: #f5f5f5;
+    border: 1px #5aa3e0 solid;
+}
+#autocomplete table tr td{
+	text-align: center;
+}
+#autocomplete table tr{
+	height: 30px;
+}
+#autocomplete table tr.top{
+    background-color: #5aa3e0;
+    font-size: 16px;
+    height: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+#autocomplete table tr.search:hover{
+	background-color: #aaa;
+	color: #fff;
+}
